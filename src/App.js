@@ -105,13 +105,13 @@ const App = () => {
           <Button
             colorScheme="teal"
             variant="outline"
-            onClick={() => window.open("https://your-api-docs-url", "_blank")}
+            onClick={() => window.open("https://documenter.getpostman.com/view/22927069/2sA2rB1NUa", "_blank")}
           >
             API Docs
           </Button>
-          <Button colorScheme="teal" onClick={() => setModalOpen(true)}>
+          {/* <Button colorScheme="teal" onClick={() => setModalOpen(true)}>
             Subscribe to Rates
-          </Button>
+          </Button> */}
         </Stack>
       </Flex>
 
