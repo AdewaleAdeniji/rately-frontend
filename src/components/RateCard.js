@@ -40,7 +40,7 @@ const RateCard = ({ rate, isAppRate }) => {
           ) : (
             <>
               <StatArrow type="decrease" />
-              {percentageChange > 0
+              {parseInt(percentageChange) > 0
                 ? `+${percentageChange}%`
                 : `${percentageChange}%`}
             </>
